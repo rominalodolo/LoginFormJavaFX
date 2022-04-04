@@ -1,16 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.loginformjavafx.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="368.0" fitWidth="207.0" layoutX="-4.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../../../../../img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="77.0" layoutX="136.0" layoutY="46.0">
+               <image>
+                  <Image url="@../../../../../img/lockheart.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="141.0" text="Username" textAlignment="CENTER" textFill="#6b5f67">
+               <font>
+                  <Font name="Josefin Sans" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="185.0" text="Password" textAlignment="CENTER" textFill="#6b5f67">
+               <font>
+                  <Font name="Josefin Sans" size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="145.0" layoutY="143.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="145.0" layoutY="188.0" promptText="Password" />
+            <Button fx:id="button" layoutX="137.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: #6b5f67#6b5f67;" text="Log In " textFill="#ffd6f5">
+               <font>
+                  <Font name="Josefin Sans" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="wrongLogin" layoutX="149.0" layoutY="117.0" prefHeight="17.0" prefWidth="10.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
