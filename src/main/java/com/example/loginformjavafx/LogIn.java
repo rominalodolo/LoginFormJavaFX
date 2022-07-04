@@ -6,7 +6,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-
 import java.io.IOException;
 
 public class LogIn {
@@ -24,13 +23,14 @@ public class LogIn {
     @FXML
     private PasswordField password;
 
+
     public void userLogIn() throws IOException {
         checkLogin();
     }
 
     private void checkLogin() throws IOException {
         Main m = new Main();
-        if(username.getText().toString().equals("javacoding") && password.getText().toString().equals("123")){
+        if(username.getText().equals("javacoding") && password.getText().equals("123")) {
             wrongLogin.setText("Success!");
 
             m.changeScene("afterLogin.fxml");
@@ -43,7 +43,6 @@ public class LogIn {
         else {
             wrongLogin.setText("Wrong username or password!");
         }
-
     }
 
 }
