@@ -6,6 +6,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+
 import java.io.IOException;
 
 public class LogIn {
@@ -23,7 +24,7 @@ public class LogIn {
     @FXML
     private PasswordField password;
 
-    public void userLogin() throws IOException {
+    public void userLogIn() throws IOException {
         checkLogin();
     }
 
