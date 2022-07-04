@@ -10,6 +10,11 @@
 ## Error running the app
 ![apperror](https://user-images.githubusercontent.com/83961643/177177397-ea40bbc9-b439-43c5-8afe-5e2e0a525dd5.jpeg)
 
+Solving the runtime error
+![errorsolved](https://user-images.githubusercontent.com/83961643/177181726-74ed5140-622d-4665-ab5a-3e39317bf2b2.jpeg)
+
+But still not loading images and 'wrong login' info
+
 
 ## Final working app: 
 
