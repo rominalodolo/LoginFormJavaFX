@@ -7,6 +7,10 @@
 ![afterlogin](https://user-images.githubusercontent.com/83961643/177172729-3442b350-bba5-4914-be61-47d328e939ff.jpeg)
 
 
+## Error running the app
+![apperror](https://user-images.githubusercontent.com/83961643/177177397-ea40bbc9-b439-43c5-8afe-5e2e0a525dd5.jpeg)
+
+
 ## Final working app: 
 
 
