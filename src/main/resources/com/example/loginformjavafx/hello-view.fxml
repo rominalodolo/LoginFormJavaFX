@@ -12,11 +12,16 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginformjavafx.LogIn">
    <left>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="289.0" prefWidth="273.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="368.0" fitWidth="207.0" layoutX="-4.0" layoutY="-1.0">
+            <ImageView fitHeight="111.0" fitWidth="274.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../img/logo.png" />
+                  <Image url="@../../../../../img/logo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="282.0" fitWidth="234.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/palmLeaf.jpg" />
                </image>
             </ImageView>
          </children>
