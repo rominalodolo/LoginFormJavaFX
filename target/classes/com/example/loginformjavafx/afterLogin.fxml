@@ -7,18 +7,18 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com" fx:controller="com.example.loginformjavafx.afterLogIn">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginformjavafx.afterLogIn">
    <left>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="172.0" fitWidth="425.0" layoutX="97.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../img/logo.jpg" />
+                  <Image url="file:/Users/rominalodolo/Desktop/GitHub/JAVA/LoginFormJavaFX/src/img/logo.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="308.0" fitWidth="256.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../img/palmLeaf.jpg" />
+                  <Image url="file:/Users/rominalodolo/Desktop/GitHub/JAVA/LoginFormJavaFX/src/img/palmLeaf.jpg" />
                </image>
             </ImageView>
             <Button fx:id="logout" layoutX="216.0" layoutY="192.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="49.0" prefWidth="131.0" style="-fx-background-color: #6b5f67#6b5f67 #6b5f67#6b5f67;" text="Log Out" textFill="#ffd6f5">
