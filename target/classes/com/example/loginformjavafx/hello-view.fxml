@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginformjavafx.LogIn">
    <left>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
@@ -43,7 +42,7 @@
             </Label>
             <TextField fx:id="username" layoutX="145.0" layoutY="143.0" promptText="Username" />
             <PasswordField fx:id="password" layoutX="145.0" layoutY="188.0" promptText="Password" />
-            <Button fx:id="button" layoutX="137.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: #6b5f67#6b5f67;" text="Log In " textFill="#ffd6f5">
+            <Button fx:id="button" layoutX="137.0" layoutY="301.0" mnemonicParsing="false" onAction="#userLogIn" style="-fx-background-color: #6b5f67#6b5f67;" text="Log In " textFill="#ffd6f5">
                <font>
                   <Font name="Josefin Sans" size="18.0" />
                </font>
