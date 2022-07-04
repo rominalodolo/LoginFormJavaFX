@@ -18,8 +18,19 @@ I opened Scene Builder again and after selecting the images I selected the "gear
 The images loaded after that change. 
 ![images](https://user-images.githubusercontent.com/83961643/177182687-8c8f62d8-ef90-4545-8ddc-0f6c2acc664d.jpeg)
 
+Just needed to change the label dimensions and it is showing full text when wrong input is added.
+![changed](https://user-images.githubusercontent.com/83961643/177187198-0fa9c88b-8f34-4147-84f5-5804c2a7f57d.jpeg)
+
 
 ## Final working app: 
+Login Page
+![mainpage](https://user-images.githubusercontent.com/83961643/177188355-7227cf31-e625-49b1-835e-ff0d6a80b3bd.jpeg)
+
+Wrong Details Warning 
+![wrong](https://user-images.githubusercontent.com/83961643/177188404-e132d4e2-5709-43f0-84d4-cc2cd6da1dbe.jpeg)
+
+After sign in - Logout Page
+![logout](https://user-images.githubusercontent.com/83961643/177188409-be4d1cc6-2df9-45c2-8992-39e637bbc45e.jpeg)
 
 
 ### Last Edit July 2022
