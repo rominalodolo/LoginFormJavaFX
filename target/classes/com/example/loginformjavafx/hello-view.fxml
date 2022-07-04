@@ -54,7 +54,7 @@
             </Button>
             <Label fx:id="wrongLogin" layoutX="149.0" layoutY="117.0" prefHeight="17.0" prefWidth="156.0" textFill="RED">
                <font>
-                  <Font name="Josefin Sans" size="13.0" />
+                  <Font name="Josefin Sans" size="11.0" />
                </font></Label>
          </children>
       </AnchorPane>
