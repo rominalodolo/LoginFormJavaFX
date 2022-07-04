@@ -21,7 +21,7 @@ public class LogIn {
     @FXML
     private TextField username;
     @FXML
-    PasswordField password;
+    private PasswordField password;
 
     public void userLogin() throws IOException {
         checkLogin();
