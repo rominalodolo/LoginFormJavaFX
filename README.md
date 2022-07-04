@@ -14,6 +14,9 @@ Solving the runtime error
 ![errorsolved](https://user-images.githubusercontent.com/83961643/177181726-74ed5140-622d-4665-ab5a-3e39317bf2b2.jpeg)
 
 But still not loading images and 'wrong login' info
+I opened Scene Builder again and after selecting the images I selected the "gear" icon right beside the ellipses button and selected "switch to absolute path". 
+The images loaded after that change. 
+![images](https://user-images.githubusercontent.com/83961643/177182687-8c8f62d8-ef90-4545-8ddc-0f6c2acc664d.jpeg)
 
 
 ## Final working app: 
